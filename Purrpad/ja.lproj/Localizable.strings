@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Purrpad
+
+  Created by Reza on 6/1/18.
+  Copyright © 2018 EccentricSolo. All rights reserved.
+*/
+"DELETE_TITLE"="このメモを削除してもよろしいですか";
+"ABOUT_KITTY" = "こんにちは！私のアプリを使ってくれてありがとう！あなたを本当に愛しています！あなたが私のためにレビューを書いてくれたらそれを感謝します. 私はあなたのアプリケーションを使用して楽しんで、かわいいノートを書くことを望む";
+"DEVELOPED_BY"="開発と設計\n レザ·アブドラヒ\n私の他のアプリを見たり、私に連絡したりするには私のプロフィールにアクセスしてください.\n Linkedin.com/in/RezaAbdolahi/";
+"PLACEHOLDER" = "タイトル";
+
+"MEOW_MEOW_MEOW" = "ニャー ニャー ニャー O.o??";
+"OK" = "はい";
+"DELETE" = "削除";
+"CANCEL"="キャンセル";
+"OOPS"="おっとっと :c";
+"WHERE_IS_THE_TITLE" = "タイトルはどこですか？";
+"TUTORIAL_IMAGENAME" = "JP_Tutorial";
+"TAPTOADDNOTEDARK_IMAGENAME" ="JP_TapToAddPurr_Dark";
+"TAPTOADDNOTEBRIGHT_IMAGENAME"="JP_TapToAddPurr_Bright";
