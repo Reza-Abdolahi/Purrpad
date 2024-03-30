@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E819FFBD67F4D942F7A8890E /* libPods-Purrpad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43879AA59052E67B21FACD94 /* libPods-Purrpad.a */; };
+		F5127CD920A7C3C2001C45BA /* TypingAnimations in Resources */ = {isa = PBXBuildFile; fileRef = F5127CD820A7C3C2001C45BA /* TypingAnimations */; };
+		F5127CDB20A7D91A001C45BA /* Kitty Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F5127CDA20A7D91A001C45BA /* Kitty Sounds */; };
+		F5518CC920A0AF1E00650E4E /* PurrCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5518CC720A0AF1E00650E4E /* PurrCollectionViewCell.m */; };
+		F5518CCA20A0AF1E00650E4E /* PurrCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5518CC820A0AF1E00650E4E /* PurrCollectionViewCell.xib */; };
+		F5518CCE20A125E500650E4E /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = F5518CCB20A125E400650E4E /* KLCPopup.m */; };
+		F57FDE6220CB26B900B62C9A /* PurrMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57FDE6020CB26B900B62C9A /* PurrMainViewController.m */; };
+		F5837D1320C1D63100DBCC67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5837D1120C1D63100DBCC67 /* Localizable.strings */; };
+		F5AD741D209A93AB008ECB8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD741C209A93AB008ECB8B /* AppDelegate.m */; };
+		F5AD7423209A93AB008ECB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AD7421209A93AB008ECB8B /* Main.storyboard */; };
+		F5AD7426209A93AB008ECB8B /* Purrpad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5AD7424209A93AB008ECB8B /* Purrpad.xcdatamodeld */; };
+		F5AD7428209A93AC008ECB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AD7427209A93AC008ECB8B /* Assets.xcassets */; };
+		F5AD742B209A93AC008ECB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AD7429209A93AC008ECB8B /* LaunchScreen.storyboard */; };
+		F5AD742E209A93AC008ECB8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD742D209A93AC008ECB8B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43879AA59052E67B21FACD94 /* libPods-Purrpad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Purrpad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD320B7B5A351D9C0C7718D6 /* Pods-Purrpad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purrpad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purrpad/Pods-Purrpad.release.xcconfig"; sourceTree = "<group>"; };
+		CDA94DF42C2C56FAC1788C0E /* Pods-Purrpad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purrpad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purrpad/Pods-Purrpad.debug.xcconfig"; sourceTree = "<group>"; };
+		F5127CD820A7C3C2001C45BA /* TypingAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TypingAnimations; sourceTree = "<group>"; };
+		F5127CDA20A7D91A001C45BA /* Kitty Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Kitty Sounds"; sourceTree = "<group>"; };
+		F5518CC620A0AF1E00650E4E /* PurrCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurrCollectionViewCell.h; sourceTree = "<group>"; };
+		F5518CC720A0AF1E00650E4E /* PurrCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurrCollectionViewCell.m; sourceTree = "<group>"; };
+		F5518CC820A0AF1E00650E4E /* PurrCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurrCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5518CCB20A125E400650E4E /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
+		F5518CCC20A125E500650E4E /* KLCPopupExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KLCPopupExample-Prefix.pch"; sourceTree = "<group>"; };
+		F5518CCD20A125E500650E4E /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		F57FDE6020CB26B900B62C9A /* PurrMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurrMainViewController.m; sourceTree = "<group>"; };
+		F57FDE6120CB26B900B62C9A /* PurrMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurrMainViewController.h; sourceTree = "<group>"; };
+		F5837D1220C1D63100DBCC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5837D1420C1D68500DBCC67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F5837D1520C1D68500DBCC67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		F5837D1620C1D68600DBCC67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5AD7418209A93AB008ECB8B /* Purrpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purrpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AD741B209A93AB008ECB8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5AD741C209A93AB008ECB8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5AD7422209A93AB008ECB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5AD7425209A93AB008ECB8B /* Purrpad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Purrpad.xcdatamodel; sourceTree = "<group>"; };
+		F5AD7427209A93AC008ECB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5AD742A209A93AC008ECB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5AD742C209A93AC008ECB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AD742D209A93AC008ECB8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5AD7415209A93AB008ECB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819FFBD67F4D942F7A8890E /* libPods-Purrpad.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760B95BD5F24F87729AC08A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43879AA59052E67B21FACD94 /* libPods-Purrpad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA21123F5C4559A7C189ECA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDA94DF42C2C56FAC1788C0E /* Pods-Purrpad.debug.xcconfig */,
+				AD320B7B5A351D9C0C7718D6 /* Pods-Purrpad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5AD740F209A93AB008ECB8B = {
+			isa = PBXGroup;
+			children = (
+				F5AD741A209A93AB008ECB8B /* Purrpad */,
+				F5AD7419209A93AB008ECB8B /* Products */,
+				CA21123F5C4559A7C189ECA7 /* Pods */,
+				760B95BD5F24F87729AC08A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AD7419209A93AB008ECB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5AD7418209A93AB008ECB8B /* Purrpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AD741A209A93AB008ECB8B /* Purrpad */ = {
+			isa = PBXGroup;
+			children = (
+				F5AD7429209A93AC008ECB8B /* LaunchScreen.storyboard */,
+				F5AD7421209A93AB008ECB8B /* Main.storyboard */,
+				F5518CC820A0AF1E00650E4E /* PurrCollectionViewCell.xib */,
+				F5518CC620A0AF1E00650E4E /* PurrCollectionViewCell.h */,
+				F5518CC720A0AF1E00650E4E /* PurrCollectionViewCell.m */,
+				F57FDE6120CB26B900B62C9A /* PurrMainViewController.h */,
+				F57FDE6020CB26B900B62C9A /* PurrMainViewController.m */,
+				F5AD741B209A93AB008ECB8B /* AppDelegate.h */,
+				F5AD741C209A93AB008ECB8B /* AppDelegate.m */,
+				F5AD742D209A93AC008ECB8B /* main.m */,
+				F5518CCD20A125E500650E4E /* KLCPopup.h */,
+				F5518CCB20A125E400650E4E /* KLCPopup.m */,
+				F5518CCC20A125E500650E4E /* KLCPopupExample-Prefix.pch */,
+				F5127CD820A7C3C2001C45BA /* TypingAnimations */,
+				F5127CDA20A7D91A001C45BA /* Kitty Sounds */,
+				F5AD7427209A93AC008ECB8B /* Assets.xcassets */,
+				F5AD742C209A93AC008ECB8B /* Info.plist */,
+				F5837D1120C1D63100DBCC67 /* Localizable.strings */,
+				F5AD7424209A93AB008ECB8B /* Purrpad.xcdatamodeld */,
+			);
+			path = Purrpad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5AD7417209A93AB008ECB8B /* Purrpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AD7431209A93AC008ECB8B /* Build configuration list for PBXNativeTarget "Purrpad" */;
+			buildPhases = (
+				CCB1BCBD103A7FA35E906A10 /* [CP] Check Pods Manifest.lock */,
+				F5AD7414209A93AB008ECB8B /* Sources */,
+				F5AD7415209A93AB008ECB8B /* Frameworks */,
+				F5AD7416209A93AB008ECB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purrpad;
+			productName = Purrpad;
+			productReference = F5AD7418209A93AB008ECB8B /* Purrpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5AD7410209A93AB008ECB8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = EccentricSolo;
+				TargetAttributes = {
+					F5AD7417209A93AB008ECB8B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F5AD7413209A93AB008ECB8B /* Build configuration list for PBXProject "Purrpad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+			);
+			mainGroup = F5AD740F209A93AB008ECB8B;
+			productRefGroup = F5AD7419209A93AB008ECB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5AD7417209A93AB008ECB8B /* Purrpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5AD7416209A93AB008ECB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AD742B209A93AC008ECB8B /* LaunchScreen.storyboard in Resources */,
+				F5127CDB20A7D91A001C45BA /* Kitty Sounds in Resources */,
+				F5AD7428209A93AC008ECB8B /* Assets.xcassets in Resources */,
+				F5837D1320C1D63100DBCC67 /* Localizable.strings in Resources */,
+				F5AD7423209A93AB008ECB8B /* Main.storyboard in Resources */,
+				F5127CD920A7C3C2001C45BA /* TypingAnimations in Resources */,
+				F5518CCA20A0AF1E00650E4E /* PurrCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCB1BCBD103A7FA35E906A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purrpad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5AD7414209A93AB008ECB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57FDE6220CB26B900B62C9A /* PurrMainViewController.m in Sources */,
+				F5AD7426209A93AB008ECB8B /* Purrpad.xcdatamodeld in Sources */,
+				F5518CC920A0AF1E00650E4E /* PurrCollectionViewCell.m in Sources */,
+				F5AD742E209A93AC008ECB8B /* main.m in Sources */,
+				F5518CCE20A125E500650E4E /* KLCPopup.m in Sources */,
+				F5AD741D209A93AB008ECB8B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5837D1120C1D63100DBCC67 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5837D1220C1D63100DBCC67 /* en */,
+				F5837D1620C1D68600DBCC67 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5AD7421209A93AB008ECB8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AD7422209A93AB008ECB8B /* Base */,
+				F5837D1520C1D68500DBCC67 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5AD7429209A93AC008ECB8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AD742A209A93AC008ECB8B /* Base */,
+				F5837D1420C1D68500DBCC67 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5AD742F209A93AC008ECB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5AD7430209A93AC008ECB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5AD7432209A93AC008ECB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA94DF42C2C56FAC1788C0E /* Pods-Purrpad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68474U5789;
+				INFOPLIST_FILE = Purrpad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reze-abdolahi.Purrpad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F5AD7433209A93AC008ECB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD320B7B5A351D9C0C7718D6 /* Pods-Purrpad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68474U5789;
+				INFOPLIST_FILE = Purrpad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reze-abdolahi.Purrpad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5AD7413209A93AB008ECB8B /* Build configuration list for PBXProject "Purrpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AD742F209A93AC008ECB8B /* Debug */,
+				F5AD7430209A93AC008ECB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AD7431209A93AC008ECB8B /* Build configuration list for PBXNativeTarget "Purrpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AD7432209A93AC008ECB8B /* Debug */,
+				F5AD7433209A93AC008ECB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5AD7424209A93AB008ECB8B /* Purrpad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5AD7425209A93AB008ECB8B /* Purrpad.xcdatamodel */,
+			);
+			currentVersion = F5AD7425209A93AB008ECB8B /* Purrpad.xcdatamodel */;
+			path = Purrpad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5AD7410209A93AB008ECB8B /* Project object */;
+}
