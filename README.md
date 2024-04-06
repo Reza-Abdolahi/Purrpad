@@ -6,3 +6,5 @@
 It's a fun & interactive notepad add in which a custom made animated 🐈 would type alongside with you while you are taking notes! 
 I mean what else do you want? :D
 
+https://github.com/Reza-Abdolahi/Purrpad/assets/36269246/aa6b94f4-2b2b-4233-9f42-63642baa81d0
+
